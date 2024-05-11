@@ -1,0 +1,46 @@
+.basket{
+    position: absolute;
+    top: 20%;
+    right: 6%;
+    
+}
+.ball{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    animation: goal 4s  linear 1s infinite  normal ;
+    
+}
+.ball img{
+    width: 130px;
+}
+@keyframes goal{
+    0%{
+        left: 10px;
+        bottom: 10px;
+        opacity: 1;
+    }
+    25%{
+        left: 500px;
+        bottom: 600px;
+        opacity: 1;
+
+    }
+    50%{
+        left: 900px;
+        bottom: 10px;
+        opacity: 1;
+
+    }
+    75%{
+        left: 1100px;
+        bottom: 600px;
+        opacity: 1;
+    }
+    100%{
+        left: 1300px;
+        bottom: 400px;
+        opacity:0.2 ;
+
+    }
+}

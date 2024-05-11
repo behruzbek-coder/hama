@@ -1,0 +1,51 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 150px;
+    animation-name: harakat;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ;
+    transition: 5s;
+}
+
+@keyframes harakat {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+        background-color: bisque;
+        border-radius: 50%;
+        transition: 1s;
+
+
+    }
+    25%{
+        background-color: lime;
+        border-radius: 50% 20px 80px;
+
+        transition: 1s;
+
+    }
+
+    50% {
+        transform: rotate(50px) skew(12px);
+        border-radius: 50%;
+        background-color: bisque;
+        border-radius: 50%, 60%;
+        transition: 1s;
+
+        
+        
+
+    }
+
+    100% {
+        transform: translateX(1200px) rotate(3600deg);
+        border-radius: 50px 50% 0 10%;
+
+    }
+
+}
